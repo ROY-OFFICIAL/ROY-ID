@@ -89,7 +89,7 @@ class awokawokawok:
 	
 	#def logo_banner(self):
 		#os.system ('clear')
-		#print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by  : Roy Octa Firdaus \n "+P+"[*] Facebook  : facebook.com/jbfbold \n [*] Whatsapp : 081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
+		#print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+P+'Roy Octa Firdaus \n '+P+'[*] Facebook  : facebook.com/jbfbold \n [*] Whatsapp : 081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
 		#print(P+' [*] Alamat ip :'+H+' '+ip)
 		#print(52*'\x1b[1;97m═')
 		
@@ -102,7 +102,7 @@ class awokawokawok:
 		prem()
 		os.system ('clear')
 		ip = requests.get('https://api.ipify.org').text
-		print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by  : Roy Octa Firdaus \n "+P+"[*] Facebook  : facebook.com/jbfbold \n [*] Whatsapp : 081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
+		print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+P+'Roy Octa Firdaus \n '+P+'[*] Facebook  : facebook.com/jbfbold \n [*] Whatsapp : 081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
 		jalan(P+' [*] Premium?  :'+M+' Tidak ')
 		time.sleep(0.2)
 		print(P+' [*] Alamat ip :'+H+' '+ip)
