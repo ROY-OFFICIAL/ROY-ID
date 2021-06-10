@@ -21,7 +21,7 @@ k = '\x1b[0;33m'
 url="https://mbasic.facebook.com"
 longentod="lo lebih ngentod"
 ip = requests.get('https://api.ipify.org').text
-logo=("\n"+K+" ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n [*] Coded by  : "+K+"Roy Octa Firdaus \n "+P+"[*] Facebook  : "+K+"facebook.com/jbfbold \n [*] Whatsapp   : "+K+"081318306972  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Premium?  :"+M+" Tidak "+P+"\n [*] Alamat ip :"+H+" "+ip+" ")
+logo=("\n"+K+" ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n [*] Coded by  : "+K+"Roy Octa Firdaus \n "+P+"[*] Facebook  : "+K+"facebook.com/jbfbold \n [*] Whatsapp	: "+K+"081318306972  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Status  :"+M+" Tidak Premium "+P+"\n [*] Alamat ip :"+H+" "+ip+" ")
 
 
 def ajg():
@@ -42,7 +42,7 @@ def jalan(z):
 		time.sleep(0.02)
 def prem():
 	os.system ('clear')
-	jalan(P+' [*] Status : '+M+'Tidak premium '+P+'Maaf')
+	jalan(P+' [*] Status : '+M+'Tidak Premium '+P+'Maaf')
 	time.sleep(3)
         
         
@@ -102,7 +102,7 @@ class awokawokawok:
 		os.system ('clear')
 		ip = requests.get('https://api.ipify.org').text
 		print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+K+'Roy Octa Firdaus \n '+P+'[*] Facebook  : facebook.com/jbfbold \n [*] Whatsapp : 081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
-		jalan(P+' [*] Status  :'+M+' Tidak ')
+		jalan(P+' [*] Status  :'+M+' Tidak Premium ')
 		time.sleep(0.2)
 		print(P+' [*] Alamat IP :'+H+' '+ip)
 		time.sleep(0.2)
