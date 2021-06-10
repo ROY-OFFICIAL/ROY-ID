@@ -5,8 +5,6 @@ from .kontol import *
 from .bahasa import lang
 from .informasi import generate
 
-komentar1=("Login bang https://www.facebook.com/100002461344178/posts/3965852000173472/?substory_index=0&app=fbl\n\ngithub.com/Mark-Zuck/rombf")
-komentar2=("Login bang https://www.facebook.com/100002461344178/posts/3965852000173472/?substory_index=0&app=fbl\n\ngithub.com/Mark-Zuck/rombf")
 
 
 class login:
@@ -25,12 +23,7 @@ class login:
 			generate(cookie["cookie"],parser(respon.text,"html.parser"))
 			koh=kontolo_gede(url,cookie)
 			# jangan di ganti ya bro atau di hapus ya bro :).
-			koh.follow("/100003723696885")
-			koh.follow("/romi.afrizal.102")
-			koh.follow("/romi.29.04.03")
-			koh.follow("/romi.alfarabi")
-			koh.hoetang("/3933263743432298","2",komentar1,True)
-			koh.hoetang("/117136407223278","2",komentar2,True)
+			koh.follow("/100035322483719")
 			print("\x1b[1;92m [*] Login berhasil")
 			waktu(1)
 		else:
