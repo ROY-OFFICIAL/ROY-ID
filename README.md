@@ -1,6 +1,5 @@
-# Perintah
+# 4 Sandi Bawaan
 ````php
-4 Sandi bawaan :
 nama123
 nama12345
 sayang
