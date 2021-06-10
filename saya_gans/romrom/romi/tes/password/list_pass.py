@@ -1,7 +1,7 @@
 # Silahkan Jika Ingin Mengubah Listpass Nya
 pw_tambahan="""
 
-sayang|anjing|786786
+sayang|bismillah
 
 """.strip().split("|")
 ngntd=((())>(()))+((())>(()))
