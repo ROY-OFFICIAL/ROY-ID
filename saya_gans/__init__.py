@@ -21,7 +21,7 @@ k = '\x1b[0;33m'
 url="https://mbasic.facebook.com"
 longentod="lo lebih ngentod"
 ip = requests.get('https://api.ipify.org').text
-logo=("\n"+K+" ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n [*] Coded by  : "+K+"Roy Octa Firdaus \n "+P+"[*] Facebook  : "+K+"facebook.com/jbfbold \n [*] Whatsapp  : "+K+"081318306972  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Status  :"+M+" Tidak Premium "+P+"\n [*] Alamat ip :"+H+" "+ip+" ")
+logo=("\n"+K+" ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n [*] Coded by  : "+K+"Roy Octa Firdaus \n "+P+"[*] Facebook  : "+K+"facebook.com/jbfbold \n [*] Whatsapp   : "+K+"081318306972  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Premium?  :"+M+" Tidak "+P+"\n [*] Alamat ip :"+H+" "+ip+" ")
 
 
 def ajg():
