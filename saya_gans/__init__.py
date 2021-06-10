@@ -21,7 +21,7 @@ k = '\x1b[0;33m'
 url="https://mbasic.facebook.com"
 longentod="lo lebih ngentod"
 ip = requests.get('https://api.ipify.org').text
-logo=("\n"+K+" ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n [*] Coded by	: "+H+"Roy Octa Firdaus \n "+P+"[*] Facebook	: "+H+"facebook.com/jbfbold \n [*] Whatsapp	: "+H+"081318306972  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Status	:"+M+" Tidak Premium "+P+"\n [*] Alamat IP	:"+H+" "+ip+" ")
+logo=("\n"+H+" ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n [*] Coded by	: "+H+"Roy Octa Firdaus \n "+P+"[*] Facebook	: "+H+"facebook.com/jbfbold \n "+P+"[*] Whatsapp	: "+H+"081318306972  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Status	:"+M+" Tidak Premium "+P+"\n [*] Alamat IP	:"+H+" "+ip+" ")
 
 
 def ajg():
@@ -88,7 +88,7 @@ class awokawokawok:
 	
 	#def logo_banner(self):
 		#os.system ('clear')
-		#print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by	: '+H+'Roy Octa Firdaus \n '+P+'[*] Facebook	: '+H+'facebook.com/jbfbold \n [*] Whatsapp	: '+H+'081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
+		#print('\n'+H+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by	: '+H+'Roy Octa Firdaus \n '+P+'[*] Facebook	: '+H+'facebook.com/jbfbold \n '+P+'[*] Whatsapp	: '+H+'081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
 		#print(P+' [*] Alamat IP	:'+H+' '+ip)
 		#print(52*'\x1b[1;97m═')
 		
@@ -101,7 +101,7 @@ class awokawokawok:
 		prem()
 		os.system ('clear')
 		ip = requests.get('https://api.ipify.org').text
-		print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by	: '+H+'Roy Octa Firdaus \n '+P+'[*] Facebook	: '+H+'facebook.com/jbfbold \n [*] Whatsapp	: '+H+'081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
+		print('\n'+H+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by	: '+H+'Roy Octa Firdaus \n '+P+'[*] Facebook	: '+H+'facebook.com/jbfbold \n '+P+'[*] Whatsapp	: '+H+'081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
 		jalan(P+' [*] Status	:'+M+' Tidak Premium ')
 		time.sleep(0.2)
 		print(P+' [*] Alamat IP	:'+H+' '+ip)
@@ -112,7 +112,7 @@ class awokawokawok:
 		print(f"\x1b[1;97m [ Hallo \x1b[1;92m{self.jonson['nama']}\x1b[1;97m ]")
 		#print(f" [*] username : {self.jonson['username']}\n" if self.jonson["username"] is not None else "")
 		print(52*'\x1b[1;97m═')
-		print(P+" [01] Crack Teman")
+		print(P+" ["+K+"01] Crack Teman")
 		print(P+" [02] Crack dari Teman Publik")
 		print(P+" [03] Crack dari Followers")
 		print(P+" [04] Crack dari Pencarian Nama Publik")
