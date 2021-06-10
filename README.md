@@ -1,6 +1,5 @@
-# ROY-ID
-## Perintah
-````
+# Perintah
+````php
 $ pkg update && pkg upgrade 
 $ pkg install python 
 $ pkg install git 
