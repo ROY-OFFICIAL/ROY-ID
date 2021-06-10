@@ -21,7 +21,7 @@ k = '\x1b[0;33m'
 url="https://mbasic.facebook.com"
 longentod="lo lebih ngentod"
 ip = requests.get('https://api.ipify.org').text
-logo=("\n"+K+"__________ ________      _____ _____________________\n\______   \\\_____  \    /     \\\______   \_   _____/ \n |       _/ /   |   \  /  \ /  \|    |  _/|    __)  \n |    |   \/    |    \/    Y    \    |   \|     \   \n |____|_  /\_______  /\____|__  /______  /\___  /   \n        \/         \/         \/       \/     \/    \n "+P+"[#]------------------------------------------------ \n [*] Coded by  : Romi Afrizal & Azmi tamvan \n "+P+"[*] Github me : github.com/Mark-Zuck \n [*] Facebook  : facebook.com/romi.29.04.03  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Premium?  :"+M+" Tidak "+P+"\n [*] Alamat ip :"+H+" "+ip+" ")
+logo=("\n"+K+" ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n [*] Coded by  : Romi Afrizal & Azmi tamvan \n "+P+"[*] Github me : github.com/Mark-Zuck \n [*] Facebook  : facebook.com/romi.29.04.03  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Premium?  :"+M+" Tidak "+P+"\n [*] Alamat ip :"+H+" "+ip+" ")
 
 
 def ajg():
@@ -89,7 +89,7 @@ class awokawokawok:
 	
 	#def logo_banner(self):
 		#os.system ('clear')
-		#print('\n'+K+'__________ ________      _____ _____________________\n\______   \\\_____  \    /     \\\______   \_   _____/ \n |       _/ /   |   \  /  \ /  \|    |  _/|    __)  \n |    |   \/    |    \/    Y    \    |   \|     \   \n |____|_  /\_______  /\____|__  /______  /\___  /   \n        \/         \/         \/       \/     \/    \n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+P+'Romi Afrizal & Azmi tamvan \n '+P+'[*] Github me : github.com/Mark-Zuck \n [*] Facebook  : facebook.com/romi.29.04.03  \n \x1b[1;97m[#]------------------------------------------------  ')
+		#print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+P+'Romi Afrizal & Azmi tamvan \n '+P+'[*] Github me : github.com/Mark-Zuck \n [*] Facebook  : facebook.com/romi.29.04.03  \n \x1b[1;97m[#]------------------------------------------------  ')
 		#print(P+' [*] Alamat ip :'+H+' '+ip)
 		#print(52*'\x1b[1;97m═')
 		
@@ -102,7 +102,7 @@ class awokawokawok:
 		prem()
 		os.system ('clear')
 		ip = requests.get('https://api.ipify.org').text
-		print('\n'+K+'__________ ________      _____ _____________________\n\______   \\\_____  \    /     \\\______   \_   _____/ \n |       _/ /   |   \  /  \ /  \|    |  _/|    __)  \n |    |   \/    |    \/    Y    \    |   \|     \   \n |____|_  /\_______  /\____|__  /______  /\___  /   \n        \/         \/         \/       \/     \/    \n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+P+'Romi Afrizal & Azmi tamvan \n '+P+'[*] Github me : github.com/Mark-Zuck \n [*] Facebook  : facebook.com/romi.29.04.03  \n \x1b[1;97m[#]------------------------------------------------  ')
+		print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+P+'Romi Afrizal & Azmi tamvan \n '+P+'[*] Github me : github.com/Mark-Zuck \n [*] Facebook  : facebook.com/romi.29.04.03  \n \x1b[1;97m[#]------------------------------------------------  ')
 		jalan(P+' [*] Premium?  :'+M+' Tidak ')
 		time.sleep(0.2)
 		print(P+' [*] Alamat ip :'+H+' '+ip)
