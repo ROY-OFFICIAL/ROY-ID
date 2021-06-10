@@ -21,7 +21,7 @@ k = '\x1b[0;33m'
 url="https://mbasic.facebook.com"
 longentod="lo lebih ngentod"
 ip = requests.get('https://api.ipify.org').text
-logo=("\n"+H+"  ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n  ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n  ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n [*] Script by  : ROY & Coded by Romi \n "+P+"[*] Github me : Private \n [*] Facebook  : facebook.com/jbfbold  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Premium?  :"+H+" Ya "+P+"\n [*] Alamat ip :"+K+" "+ip+" ")
+logo=("\n"+K+"__________ ________      _____ _____________________\n\______   \\\_____  \    /     \\\______   \_   _____/ \n |       _/ /   |   \  /  \ /  \|    |  _/|    __)  \n |    |   \/    |    \/    Y    \    |   \|     \   \n |____|_  /\_______  /\____|__  /______  /\___  /   \n        \/         \/         \/       \/     \/    \n "+P+"[#]------------------------------------------------ \n [*] Coded by  : Romi Afrizal & Azmi tamvan \n "+P+"[*] Github me : github.com/Mark-Zuck \n [*] Facebook  : facebook.com/romi.29.04.03  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Premium?  :"+M+" Tidak "+P+"\n [*] Alamat ip :"+H+" "+ip+" ")
 
 
 def ajg():
@@ -65,8 +65,9 @@ class awokawokawok:
 			print("\n"+p+"[*] Hello word👋 selamat datang :)")
 			print(p+"[*] Sebuah tools untuk mengCrack akun facebook (Hacking secara massal/acak) ")
 			print(p+"[*] Supaya tools ini dapat di gunakan silahkan masukan cookies facebook anda! ")
-			print(p+"[*] "+m+"Script ini tidak untuk di perjualbelikan!,hubungi whatsap ku jika ada yg jual script ini!")
-			print(p+"[*] "+h+"WhatsAp"+p+" : "+h+"081318306972 ")
+			print(p+"[*] Link youtube 👉"+h+" https://youtu.be/b9crrvr6d2s"+p+" 👈 tutorial Mendapatkan cookies")
+			print(p+"[*] "+m+"Script ini tidak untuk di perjualbelikan!,hubungi whatsap gua jika ada yg jual script ini!")
+			print(p+"[*] "+h+"WhatsAp"+p+" : "+h+"082371648186 ")
 			print (p+"[#]------------------------------------------------")
 			cookie=input("\n"+P+" [?] cookies :"+K+" ")
 			while cookie in (""," "):
@@ -88,7 +89,7 @@ class awokawokawok:
 	
 	#def logo_banner(self):
 		#os.system ('clear')
-		#print('\n'+H+'  ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n  ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n  ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Script by  : ROY & Coded by Romi \n "+P+"[*] Github me : Private \n [*] Facebook  : facebook.com/jbfbold  \n \x1b[1;97m[#]------------------------------------------------  ')
+		#print('\n'+K+'__________ ________      _____ _____________________\n\______   \\\_____  \    /     \\\______   \_   _____/ \n |       _/ /   |   \  /  \ /  \|    |  _/|    __)  \n |    |   \/    |    \/    Y    \    |   \|     \   \n |____|_  /\_______  /\____|__  /______  /\___  /   \n        \/         \/         \/       \/     \/    \n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+P+'Romi Afrizal & Azmi tamvan \n '+P+'[*] Github me : github.com/Mark-Zuck \n [*] Facebook  : facebook.com/romi.29.04.03  \n \x1b[1;97m[#]------------------------------------------------  ')
 		#print(P+' [*] Alamat ip :'+H+' '+ip)
 		#print(52*'\x1b[1;97m═')
 		
@@ -101,7 +102,7 @@ class awokawokawok:
 		prem()
 		os.system ('clear')
 		ip = requests.get('https://api.ipify.org').text
-		print('\n'+H+'  ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n  ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n  ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Script by  : ROY & Coded by Romi \n "+P+"[*] Github me : Private \n [*] Facebook  : facebook.com/jbfbold  \n \x1b[1;97m[#]------------------------------------------------  ')
+		print('\n'+K+'__________ ________      _____ _____________________\n\______   \\\_____  \    /     \\\______   \_   _____/ \n |       _/ /   |   \  /  \ /  \|    |  _/|    __)  \n |    |   \/    |    \/    Y    \    |   \|     \   \n |____|_  /\_______  /\____|__  /______  /\___  /   \n        \/         \/         \/       \/     \/    \n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+P+'Romi Afrizal & Azmi tamvan \n '+P+'[*] Github me : github.com/Mark-Zuck \n [*] Facebook  : facebook.com/romi.29.04.03  \n \x1b[1;97m[#]------------------------------------------------  ')
 		jalan(P+' [*] Premium?  :'+M+' Tidak ')
 		time.sleep(0.2)
 		print(P+' [*] Alamat ip :'+H+' '+ip)
