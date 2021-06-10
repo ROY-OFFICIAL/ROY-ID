@@ -1,12 +1,12 @@
 # Silahkan Jika Ingin Mengubah Listpass Nya
 pw_tambahan="""
 
-sayang|bismillah|indonesia
+sayang|bismillah
 
 """.strip().split("|")
 ngntd=((())>(()))+((())>(()))
 def awok(ngentod):
-	return [ngentod+"123",ngentod+"12345",ngentod+"123456"]
+	return [ngentod+"123",ngentod+"12345"]
 def pw_list(ngentot):
 	if len(ngentot)==2:
 		rom_mi=ngentot[1].split(" ")
