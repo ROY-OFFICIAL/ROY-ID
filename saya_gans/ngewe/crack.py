@@ -26,10 +26,10 @@ class crack:
 
 	def naroskeun(self):
 		#print (" [*] Proses selesai...\n ")
-		tod=input(""+P+" [?] Gunakan password manual "+H+"y"+P+"/"+M+"t"+P+" :"+K+" ")
+		tod=input(""+P+" [?] Gunakan password manual "+H+"Y"+P+"/"+M+"T"+P+" :"+K+" ")
 		while tod in (""," "):
 			print(M+" [!] Isi yang benar")
-			tod=input(""+P+" [?] Gunakan password manual "+H+"y"+P+"/"+M+"t"+P+" :"+K+" ")
+			tod=input(""+P+" [?] Gunakan password manual "+H+"Y"+P+"/"+M+"T"+P+" :"+K+" ")
 		if tod in tuple("yY"):
 			print("\n"+P+" [*] contoh : "+K+"sayang,rahasia,bismillah")
 			password=input(P+" [?] password :"+K+" ")
