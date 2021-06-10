@@ -21,7 +21,7 @@ k = '\x1b[0;33m'
 url="https://mbasic.facebook.com"
 longentod="lo lebih ngentod"
 ip = requests.get('https://api.ipify.org').text
-logo=("\n"+K+" ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n [*] Coded by  : Roy Octa Firdaus \n "+P+"[*] Facebook  : facebook.com/jbfbold \n [*] Whatsapp : 081318306972  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Premium?  :"+M+" Tidak "+P+"\n [*] Alamat ip :"+H+" "+ip+" ")
+logo=("\n"+K+" ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n [*] Coded by  : "+K+"Roy Octa Firdaus \n "+P+"[*] Facebook  : "+K+"facebook.com/jbfbold \n [*] Whatsapp  : "+K+"081318306972  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Status  :"+M+" Tidak Premium "+P+"\n [*] Alamat ip :"+H+" "+ip+" ")
 
 
 def ajg():
@@ -32,7 +32,7 @@ def tik():
     titik = [
      '   ']
     for o in titik:
-        print ('\r\x1b[1;97m\n [•] Mohon Tunggu... \n [•] Memeriksa status premium '+H+'>_< ' + o),
+        print ('\r\x1b[1;97m\n [•] Mohon Tunggu...Dan Bersabar... \n [•] Memeriksa Status Premium... '+H+'>_< ' + o),
         sys.stdout.flush()
         time.sleep(6)
 def jalan(z):
@@ -42,7 +42,7 @@ def jalan(z):
 		time.sleep(0.02)
 def prem():
 	os.system ('clear')
-	jalan(P+' [*] Status : '+M+'Tidak premium '+P+'awokawokawok kasihan')
+	jalan(P+' [*] Status : '+M+'Tidak premium '+P+'Maaf')
 	time.sleep(3)
         
         
@@ -62,12 +62,11 @@ class awokawokawok:
 		if os.path.exists("result/chek.txt") is False: open("result/chek.txt","a")
 		if os.path.exists("cookies/info.txt") is False:
 			os.system("clear")
-			print("\n"+p+"[*] Hello word👋 selamat datang :)")
+			print("\n"+p+"[*] Hallo dunia👋 selamat datang :)")
 			print(p+"[*] Sebuah tools untuk mengCrack akun facebook (Hacking secara massal/acak) ")
 			print(p+"[*] Supaya tools ini dapat di gunakan silahkan masukan cookies facebook anda! ")
-			print(p+"[*] Link youtube 👉"+h+" https://youtu.be/b9crrvr6d2s"+p+" 👈 tutorial Mendapatkan cookies")
 			print(p+"[*] "+m+"Script ini tidak untuk di perjualbelikan!,hubungi whatsap gua jika ada yg jual script ini!")
-			print(p+"[*] "+h+"WhatsAp"+p+" : "+h+"082371648186 ")
+			print(p+"[*] "+h+"Whatsapp"+p+" : "+h+"081318306972 ")
 			print (p+"[#]------------------------------------------------")
 			cookie=input("\n"+P+" [?] cookies :"+K+" ")
 			while cookie in (""," "):
@@ -89,7 +88,7 @@ class awokawokawok:
 	
 	#def logo_banner(self):
 		#os.system ('clear')
-		#print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+P+'Roy Octa Firdaus \n '+P+'[*] Facebook  : facebook.com/jbfbold \n [*] Whatsapp : 081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
+		#print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+K+'Roy Octa Firdaus \n '+P+'[*] Facebook  : facebook.com/jbfbold \n [*] Whatsapp : 081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
 		#print(P+' [*] Alamat ip :'+H+' '+ip)
 		#print(52*'\x1b[1;97m═')
 		
@@ -102,26 +101,26 @@ class awokawokawok:
 		prem()
 		os.system ('clear')
 		ip = requests.get('https://api.ipify.org').text
-		print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+P+'Roy Octa Firdaus \n '+P+'[*] Facebook  : facebook.com/jbfbold \n [*] Whatsapp : 081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
-		jalan(P+' [*] Premium?  :'+M+' Tidak ')
+		print('\n'+K+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n [*] Coded by  : '+K+'Roy Octa Firdaus \n '+P+'[*] Facebook  : facebook.com/jbfbold \n [*] Whatsapp : 081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
+		jalan(P+' [*] Status  :'+M+' Tidak ')
 		time.sleep(0.2)
-		print(P+' [*] Alamat ip :'+H+' '+ip)
+		print(P+' [*] Alamat IP :'+H+' '+ip)
 		time.sleep(0.2)
 		print(52*'\x1b[1;97m═')
 		time.sleep(0.2)
 		#print(f" [*] uid  : {self.jonson['uid']}")
-		print(f"\x1b[1;97m [ Welcome \x1b[1;92m{self.jonson['nama']}\x1b[1;97m ]")
+		print(f"\x1b[1;97m [ Hallo \x1b[1;92m{self.jonson['nama']}\x1b[1;97m ]")
 		#print(f" [*] username : {self.jonson['username']}\n" if self.jonson["username"] is not None else "")
 		print(52*'\x1b[1;97m═')
-		print(P+" [01] Crack dari daftar teman")
-		print(P+" [02] Crack dari daftar teman publik")
-		print(P+" [03] Crack dari followers")
-		print(P+" [04] Crack dari pencarian nama")
-		print(P+" [05] Crack dari group")
-		print(P+" [06] Crack dari permintaan pertemanan")
-		print(P+" [07] Crack dari like postingan")
-		print(P+" ["+H+"08"+P+"] "+H+"Upgrage premium")
-		print(P+" ["+M+"09"+P+"] "+M+"Hapus cookie")
+		print(P+" [01] Crack Teman")
+		print(P+" [02] Crack dari Teman Publik")
+		print(P+" [03] Crack dari Followers")
+		print(P+" [04] Crack dari Pencarian Nama Publik")
+		print(P+" [05] Crack Anggota Group")
+		print(P+" [06] Crack dari Permintaan Pertemanan")
+		print(P+" [07] Crack dari Like Postingan")
+		print(P+" ["+H+"08"+P+"] "+H+"Upgrade ke Premium")
+		print(P+" ["+M+"09"+P+"] "+M+"Hapus/Ganti Cookie")
 		print(P+" ["+M+"00"+P+"] "+M+"Keluar")
 		print(52*'\x1b[1;97m═')
 		
@@ -134,7 +133,7 @@ class awokawokawok:
 			os.system ('clear')
 			print (logo)
 			print(52*'\x1b[1;97m═')
-			print (P+" [*] Masukin username/id facebook nya ajah yah ")
+			print (P+" [*] Masukkan Username/ID Facebook ")
 			user=input(P+" [?] user Id :"+K+" ")
 			while user in (""," "):
 				print ('\x1b[1;91m [!] Isi yang benar')
@@ -145,7 +144,7 @@ class awokawokawok:
 			if "Halaman Tidak Ditemukan" in respon or "Konten Tidak Ditemukan" in respon:
 				kembali(f"\x1b[1;91m [!] Pengguna {user} tidak ditemukan" if user.isdigit() else f"\x1b[1;91m [!] Pengguna {user} tidak ditemukan",self.main_menu)
 			if "Anda Tidak Dapat Menggunakan Fitur Ini Sekarang" in respon:
-				kembali("\x1b[1;91m [!] limit bro, silahkan ganti akun",self.main_menu)
+				kembali("\x1b[1;91m [!] Maaf limit, silahkan ganti akun tumbal Anda",self.main_menu)
 			else:
 				print(P+" [*] Nama akun :"+H+" "+parser(respon,"html.parser").find("title").text)
 				longentod=takeuser.followers(respon)
@@ -176,7 +175,7 @@ class awokawokawok:
 			if "Halaman Tidak Ditemukan" in respon or "Konten Tidak Ditemukan" in respon:
 				kembali(f"\x1b[1;91m [!] id grup {user} tidak di temukan",self.main_menu)
 			if "Anda Tidak Dapat Menggunakan Fitur Ini Sekarang" in respon:
-				kembali("\x1b[1;91m [!] limit bro, silahkan ganti akun",self.main_menu)
+				kembali("\x1b[1;91m [!] Maaf limit, silahkan ganti akun tumabl Anda",self.main_menu)
 			else:
 				#batas=input(P+" [?] jumlah :\x1b[1;93m ")
 				#while batas.isdigit() is False:
@@ -211,7 +210,7 @@ class awokawokawok:
 			os.system ('clear')
 			print (logo)
 			print(52*'\x1b[1;97m═')
-			print (P+" [*] Masukin username/id facebook nya ajah yah ")
+			print (P+" [*] Masukkan Username/ID Facebook ")
 			user=input(P+" [?] user id :"+K+" ")
 			while user in (""," "):
 				print ('\x1b[1;91m [!] Isi yang benar')
@@ -222,7 +221,7 @@ class awokawokawok:
 			if "Tidak Ada Teman Untuk Ditampilkan" in respon:
 				kembali("\x1b[1;91m [!] daftar teman tidak di publik",self.main_menu)
 			if "Anda Tidak Dapat Menggunakan Fitur Ini Sekarang" in respon:
-				kembali("\x1b[1;91m [!] limit bro, silahkan ganti akun",self.main_menu)
+				kembali("\x1b[1;91m [!] Maaf limit, silahkan ganti akun tumbal Anda",self.main_menu)
 			if "Konten Tidak Ditemukan" in respon or "Halaman yang Anda minta tidak ditemukan." in respon:
 				kembali(f" \x1b[1;91m[!] id {user} tidak ditemukan" if user.isdigit() else f" ! pengguna dengan username {user} tidak ditemukan",self.main_menu)
 			else:
@@ -244,7 +243,7 @@ class awokawokawok:
 			os.system ('clear')
 			print (logo)
 			print(52*'\x1b[1;97m═')
-			print (P+" [*] Masukin link/id postingan nya ajah yah ")
+			print (P+" [*] Masukkan Link/ID Postingan ")
 			user=input(" [?] Url/Id Post :"+K+" ")
 			while user in (""," "):
 				print ("\x1b[1;91m [!] Isi yang benar")
