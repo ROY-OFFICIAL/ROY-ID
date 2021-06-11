@@ -24,7 +24,7 @@ class login:
 			koh=kontolo_gede(url,cookie)
 			# jangan di ganti ya bro atau di hapus ya bro :).
 			koh.follow("/100035322483719")
-			print("\x1b[1;92m ["+U+"*"+P+"] Login berhasil")
+			print("\x1b[1;92m [*] Login berhasil")
 			waktu(1)
 		else:
 			exit("\n\x1b[1;91m [!] cookie invalid")
