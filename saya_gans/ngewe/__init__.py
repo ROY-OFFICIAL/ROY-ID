@@ -26,7 +26,7 @@ class gadag_user:
 			for __ in _:
 				___=re.search("id=(\d*)" if "profile.php" in __[0] else "(.*?)\?",__[0])
 				romiafrzl.append(___.group(1)+"(Romi Afrizal)"+__[1] if ___ is not None else __[0]+"(Romi Afrizal)"+__[1])
-				print(f"\r\x1b[1;37m ["+U+"*"+P+"] Sedang dump {len(romiafrzl)} mohon tunggu!",end="")
+				print(f"\r\x1b[1;37m [*] Sedang dump {len(romiafrzl)} mohon tunggu!",end="")
 			if "Lihat Selengkapnya" in link:
 				self.followers(self.url+parser(link,"html.parser").find("a",string="Lihat Selengkapnya")["href"],True)
 			return romiafrzl
@@ -39,7 +39,7 @@ class gadag_user:
 			_=re.findall('style\=\"vertical-align: middle"\>\<a\ class\=\"..\" href\=\"/(.*?)"\>(.*?)</a\>',link)
 			for __ in _:
 				romiafrzl.append(re.search("id=(\d*)" if "profile.php" in __ [0] else "(.*?)\?",__[0]).group(1)+"(Romi Afrizal)"+__[1])
-				print(f"\r\x1b[1;37m ["+U+"*"+p+"] Sedang dump {len(romiafrzl)} mohon tunggu!",end="")
+				print(f"\r\x1b[1;37m [*] Sedang dump {len(romiafrzl)} mohon tunggu!",end="")
 			if "Lihat Teman Lain" in link:
 				self.fl(self.url+parser(link,"html.parser").find("a",string="Lihat Teman Lain")["href"],True)
 			return romiafrzl
