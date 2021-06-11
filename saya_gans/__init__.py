@@ -21,7 +21,7 @@ k = '\x1b[0;33m'
 url="https://mbasic.facebook.com"
 longentod="lo lebih ngentod"
 ip = requests.get('https://api.ipify.org').text
-logo=("\n"+H+" ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n [*] Coded by	: "+H+"Roy Octa Firdaus \n "+P+"[*] Facebook	: "+H+"facebook.com/jbfbold \n "+P+"[*] Whatsapp	: "+H+"081318306972  \n \x1b[1;97m[#]------------------------------------------------ \n [*] Status	:"+M+" Tidak Premium "+P+"\n [*] Alamat IP	:"+H+" "+ip+" ")
+logo=("\n"+H+" ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n "+P+"[#]------------------------------------------------ \n ["+U+"*"+P+"] Coded by	: "+H+"Roy Octa Firdaus \n "+P+"["+U+"*"+P+"] Facebook	: "+H+"facebook.com/jbfbold \n "+P+"["+U+"*"+P+"] Whatsapp	: "+H+"081318306972  \n \x1b[1;97m[#]------------------------------------------------ \n ["+U+"*"+P+"] Status	:"+M+" Tidak Premium "+P+"\n ["+U+"*"+P+"] Alamat IP	:"+H+" "+ip+" ")
 
 
 def ajg():
@@ -88,7 +88,7 @@ class awokawokawok:
 	
 	#def logo_banner(self):
 		#os.system ('clear')
-		#print('\n'+H+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n ['+K+'*'+P+'] Coded by	: '+H+'Roy Octa Firdaus \n '+P+'['+K+'*'+P+'] Facebook	: '+H+'facebook.com/jbfbold \n '+P+'['+K+'*'+P+'] Whatsapp	: '+H+'081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
+		#print('\n'+H+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n ['+U+'*'+P+'] Coded by	: '+H+'Roy Octa Firdaus \n '+P+'['+U+'*'+P+'] Facebook	: '+H+'facebook.com/jbfbold \n '+P+'['+U+'*'+P+'] Whatsapp	: '+H+'081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
 		#print(P+' ['+H+'*'+P+'] Alamat IP	:'+H+' '+ip)
 		#print(52*'\x1b[1;97m═')
 		
@@ -101,7 +101,7 @@ class awokawokawok:
 		prem()
 		os.system ('clear')
 		ip = requests.get('https://api.ipify.org').text
-		print('\n'+H+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n ['+K+'*'+P+'] Coded by	: '+H+'Roy Octa Firdaus \n '+P+'['+K+'*'+P+'] Facebook	: '+H+'facebook.com/jbfbold \n '+P+'['+K+'*'+P+'] Whatsapp	: '+H+'081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
+		print('\n'+H+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n ['+U+'*'+P+'] Coded by	: '+H+'Roy Octa Firdaus \n '+P+'['+U+'*'+P+'] Facebook	: '+H+'facebook.com/jbfbold \n '+P+'['+U+'*'+P+'] Whatsapp	: '+H+'081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
 		jalan(P+' ['+K+'*'+P+'] Status	:'+M+' Tidak Premium ')
 		time.sleep(0.2)
 		print(P+' ['+K+'*'+P+'] Alamat IP	:'+H+' '+ip)
