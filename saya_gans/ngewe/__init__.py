@@ -94,7 +94,7 @@ class gadag_user:
 			_=re.findall('picture" \/>\<\/a\>\<\/td\>\<td\ class\=\".*?"\>\<a\ href\=\"\/(.*?)"\>\<div\ class\=\"..\"\>\<div\ class\=\"..\"\>(.*?)<\/div>',link)
 			for __ in _:
 				romiafrzl.append(re.search("id=(\d*)" if "profile.php" in __[0] else "(.*?)\?refid=",__[0]).group(1)+"(Romi Afrizal)"+__[1])
-				print(f"\r\x1b[1;37m ["+U+"*"+P+"] sedang DumpID {len(romiafrzl)} mohon tunggu !",end="")
+				print(f"\r\x1b[1;37m ["+U+"*"+P+"] Sedang DumpID {len(romiafrzl)} mohon tunggu !",end="")
 				if len(romiafrzl)==jumlah:
 					why=True;break
 			if why is False:
