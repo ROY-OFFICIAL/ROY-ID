@@ -82,7 +82,7 @@ def konyet():
 
 def rom_menu():
 	os.system ('clear')
-	jalan(h+" [*] Jika tidak ingin checkpoint pilih method "+H+"free "+h+"(free.facebook.com)");time.sleep(3)
+	jalan(h+" ["+U+"*"+P+"] Jika tidak ingin checkpoint pilih method "+H+"free "+h+"(free.facebook.com)");time.sleep(3)
 	os.system('python saya_gans/romrom/romi/tes/romz.py')
 	
 def license_rom():
@@ -104,19 +104,19 @@ def romz():
     logo()
     print (p+' [!] Mohon Tunggu,sedang membuat key '+h+'>_<')
     time.sleep(3)
-    jalan(h+' [✓] Succes membuat key ')
+    jalan(h+' ["+H+"✓"+P+"] Succes membuat key ')
     id = uuid.uuid4().hex[:25]
     idg = open('licensed.log', 'w')
     idg.write(id)
     idg.close()
-    jalan ('\n'+p+' [*] Key :'+h+' '+ id+' ')
+    jalan ('\n'+p+' ['+U+'*'+P+'] Key :'+h+' '+ id+' ')
     time.sleep(0.07)
     jalan ('\n'+m+' [!] Key Belum Di konfirmasi')
     time.sleep(0.07)
-    jalan (p+' [*] Chat Admin Untuk Mengkonfirmasi Key')
+    jalan (p+' ['+U+'*'+P+'] Chat Admin Untuk Mengkonfirmasi Key')
     time.sleep(0.07)
-    input('\n [*] Tekan Enter ')
-    os.system('am start https://wa.me/+6282371648186?text=Assalamualaikum+bang+saya+ingin+mengkonfirmasi+Key+saya%20Key:%20' + id + ' >/dev/null') 
+    input('\n ['+U+'*'+P+'] Tekan Enter ')
+    os.system('am start https://wa.me/+621318306972?text=Assalamualaikum+bang+saya+ingin+mengkonfirmasi+Key+saya%20Key:%20' + id + ' >/dev/null') 
     time.sleep(1)
     os.sys.exit()
 def user1():
@@ -128,7 +128,7 @@ def user1():
             logo()
             print (p+' [!] Mohon tunggu,sedang memeriksa key '+h+'>_<')
             time.sleep(3)
-            jalan('\n'+h+' [✓] Key Tersedia ')
+            jalan('\n'+h+' ['+H+'✓'+U+'] Key Tersedia ')
            # time.sleep(1)
             rom_menu()
         else:
@@ -139,10 +139,10 @@ def user1():
             jalan ('\n'+m+' [×] Key Tidak Tersedia ')
             time.sleep(1)
             romz()
-            jalan (p+' [*] Chat Admin Untuk Mengkonfirmasi Key')
+            jalan (p+' ['+U+'*'+P+'] Chat Admin Untuk Mengkonfirmasi Key')
             time.sleep(0.07)
-            input('\n [*] Tekan Enter ')
-            os.system('am start https://wa.me/+6282371648186?text=Assalamualaikum+bang+saya+ingin+mengkonfirmasi+Key+saya%20Key:%20' + j + ' >/dev/null')
+            input('\n ['+U+'*'+P+'] Tekan Enter ')
+            os.system('am start https://wa.me/+6281318306972?text=Assalamualaikum+bang+saya+ingin+mengkonfirmasi+Key+saya%20Key:%20' + j + ' >/dev/null')
             os.sys.exit()
     except requests.exceptions.ConnectionError:
     	os.system('clear')
