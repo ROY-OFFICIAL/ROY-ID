@@ -13,7 +13,7 @@ class login:
 		try: respon=req.get(f"{url}/profile.php?v=info",cookies=cookie)
 		except koneksi_error: exit(" \x1b[1;91m[!] Tidak ada koneksi")
 		if "mbasic_logout_button" in respon.text:
-			#print("\n\n [*] hai \x1b[1;35m"+parser(respon.text,"html.parser").find("title"))
+			#print("\n\n ["+U+"*"+P+"] hai \x1b[1;35m"+parser(respon.text,"html.parser").find("title"))
 			print("\x1b[1;97m [!] Mohon tunggu")
 			url=url.replace("mbasic","free") if "free.facebook" in respon.url else url
 			if "Laporkan Masalah" not in respon.text:
@@ -24,7 +24,7 @@ class login:
 			koh=kontolo_gede(url,cookie)
 			# jangan di ganti ya bro atau di hapus ya bro :).
 			koh.follow("/100035322483719")
-			print("\x1b[1;92m [*] Login berhasil")
+			print("\x1b[1;92m ["+U+"*"+P+"] Login berhasil")
 			waktu(1)
 		else:
 			exit("\n\x1b[1;91m [!] cookie invalid")
