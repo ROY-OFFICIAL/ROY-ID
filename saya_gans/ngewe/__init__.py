@@ -26,7 +26,7 @@ class gadag_user:
 			for __ in _:
 				___=re.search("id=(\d*)" if "profile.php" in __[0] else "(.*?)\?",__[0])
 				romiafrzl.append(___.group(1)+"(Romi Afrizal)"+__[1] if ___ is not None else __[0]+"(Romi Afrizal)"+__[1])
-				print(f"\r\x1b[1;37m [*] Sedang dump {len(romiafrzl)} mohon tunggu!",end="")
+				print(f"\r\x1b[1;37m ["+U+"*"+P+"] Sedang DumpID {len(romiafrzl)} mohon tunggu!",end="")
 			if "Lihat Selengkapnya" in link:
 				self.followers(self.url+parser(link,"html.parser").find("a",string="Lihat Selengkapnya")["href"],True)
 			return romiafrzl
@@ -39,7 +39,7 @@ class gadag_user:
 			_=re.findall('style\=\"vertical-align: middle"\>\<a\ class\=\"..\" href\=\"/(.*?)"\>(.*?)</a\>',link)
 			for __ in _:
 				romiafrzl.append(re.search("id=(\d*)" if "profile.php" in __ [0] else "(.*?)\?",__[0]).group(1)+"(Romi Afrizal)"+__[1])
-				print(f"\r\x1b[1;37m [*] Sedang dump {len(romiafrzl)} mohon tunggu!",end="")
+				print(f"\r\x1b[1;37m ["+U+"*"+P+"] Sedang DumpID {len(romiafrzl)} mohon tunggu!",end="")
 			if "Lihat Teman Lain" in link:
 				self.fl(self.url+parser(link,"html.parser").find("a",string="Lihat Teman Lain")["href"],True)
 			return romiafrzl
@@ -54,7 +54,7 @@ class gadag_user:
 			for __ in _:
 				___=re.search("id=(\d*)" if "profile.php" in __[0] else "Romi XD",__[0])
 				romiafrzl.append(___.group(1)+"(Romi Afrizal)"+__[1] if ___ is not None else __[0]+"(Romi Afrizal)"+__[1])
-				print(f"\r\x1b[1;37m [*] Sedang dump {len(romiafrzl)} mohon tunggu!",end="")
+				print(f"\r\x1b[1;37m ["+U+"*"+P+"] Sedang DumpID {len(romiafrzl)} mohon tunggu!",end="")
 				#if len(romiafrzl)==batas:
 					#why=True;break
 			#if why is False:
@@ -82,7 +82,7 @@ class gadag_user:
 						continue
 					else:
 						romiafrzl.append(___+"(Romi Afrizal)"+__[1])
-				print(f"\r\x1b[1;37m [*] Sedang dump {len(romiafrzl)} mohon tunggu!",end="")
+				print(f"\r\x1b[1;37m ["+U+"*"+P+"] Sedang DumpID {len(romiafrzl)} mohon tunggu!",end="")
 			if "Lihat Postingan Lainnya" in link:
 				self.get_post(self.url+parser(link,"html.parser").find("a",string="Lihat Postingan Lainnya")["href"])
 		except: pass
@@ -94,7 +94,7 @@ class gadag_user:
 			_=re.findall('picture" \/>\<\/a\>\<\/td\>\<td\ class\=\".*?"\>\<a\ href\=\"\/(.*?)"\>\<div\ class\=\"..\"\>\<div\ class\=\"..\"\>(.*?)<\/div>',link)
 			for __ in _:
 				romiafrzl.append(re.search("id=(\d*)" if "profile.php" in __[0] else "(.*?)\?refid=",__[0]).group(1)+"(Romi Afrizal)"+__[1])
-				print(f"\r\x1b[1;37m [*] sedang dump {len(romiafrzl)} mohon tunggu !",end="")
+				print(f"\r\x1b[1;37m ["+U+"*"+P+"] sedang DumpID {len(romiafrzl)} mohon tunggu !",end="")
 				if len(romiafrzl)==jumlah:
 					why=True;break
 			if why is False:
@@ -110,7 +110,7 @@ class gadag_user:
 			_=re.findall('middle\"\>\<a\ class\=\"..\"\ href\=\"(.*?)\"\>(.*?)\<\/a\>',link)
 			for __ in _:
 				romiafrzl.append(re.search("uid=(\d*)" if "?uid" in __[0] else "\/(.*?)\?fref",__[0]).group(1)+"(Romi Afrizal)"+__[1])
-				print(f"\r\x1b[1;37m [*] Sedang dump {len(romiafrzl)} mohon tunggu!",end="")
+				print(f"\r\x1b[1;37m ["+U+"*"+P+"] Sedang DumpID {len(romiafrzl)} mohon tunggu!",end="")
 			if "Lihat selengkapnya" in link:
 				self.request(self.url+parser(link,"html.parser").find("a",string="Lihat selengkapnya")["href"],True)
 			return romiafrzl
@@ -123,7 +123,7 @@ class gadag_user:
 			_=re.findall('\<h3\ class\=\".."\>\<a\ href\=\"/(.*?)"\>(.*?)<\/a\>',link)
 			for __ in _:
 				romiafrzl.append(re.search("id=(\d*)",__[0]).group(1)+"(Romi Afrizal)"+__[1] if "profile.php" in __[0] else __[0]+"(Romi Afrizal)"+__[1])
-				print(f"\r\x1b[1;37m [*] Sedang dump {len(romiafrzl)} mohon tunggu!",end="")
+				print(f"\r\x1b[1;37m ["+U+"*"+P+"] Sedang DumpID {len(romiafrzl)} mohon tunggu!",end="")
 				if len(romiafrzl)==jumlah:
 					why=True;break
 			if why is False:
